@@ -15,6 +15,7 @@ const
        "number": "800-Hog-Wart"
      }
   ];
+export default tel_book
 
 //if the client directory contains an "index.html" web page
 //  it will be displayed as the default document
