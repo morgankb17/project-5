@@ -86,20 +86,20 @@ let getTodo = () => {
   //window.location.reload();
 }
 
-/* let deleteAll = () => {
+ let deleteAll = () => {
   //delete all comments from db
   //TBA
   $.ajax({
-    method: "DELETE",
+    method: "POST",
     url: "http://localhost:8888/deleteall/"
   })
   .done(function(msg) {
     console.log("List items deleted: " + msg);
   });
 
-  //window.location.reload();
+  window.location.reload();
 }
-*/
+
 $(document).ready(() => {
   let btn01, btn02, btn03;
   //console.log("ready")

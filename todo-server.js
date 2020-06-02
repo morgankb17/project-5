@@ -113,7 +113,7 @@ app.post('/deletetodo/:data', (req, res) => {
 });
 
 //Endpoint to Delete all todo items
-app.delete('/deleteall', (req, res) => {
+app.post('/deleteall', (req, res) => {
   db.collection(collName).deleteMany({}, function(err, obj) {
     if (err) throw err;
     //number of documents deleted
